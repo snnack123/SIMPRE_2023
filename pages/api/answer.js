@@ -93,8 +93,6 @@ export default async function handler(req, res) {
 		type
 	} = req.body;
 
-	console.log('Incoming request: ', req.method, req.body);
-
 	if (!isAllowedMethod) {
 		return sendMethodNotAllowed()
 	}
