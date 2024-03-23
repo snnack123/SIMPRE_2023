@@ -64,6 +64,7 @@ export default function MainPage() {
 						</div>
 					))}
 				</div>
+				<p className="mx-auto text-center mt-4 text-3xl">Add a new fun fact</p>
 			</div>
 		</section>
   );
